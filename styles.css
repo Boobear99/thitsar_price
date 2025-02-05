@@ -1,7 +1,9 @@
 body{
     text-align: left;
     color:black; 
-    background-color: rgb(132, 228, 252);   
+    background-color: rgb(132, 228, 252);
+    width: 100%;
+    height: inherit;   
 }
 h3{
     text-align: center;
