@@ -1,8 +1,11 @@
 body{
     text-align: left;
-    color:blanchedalmond;
-    background-color:darkblue;
+    color:black; 
+    background-color: rgb(132, 228, 252);   
 }
-head{
+h3{
+    text-align: center;
+}
+p{
     color: blue;
 }
