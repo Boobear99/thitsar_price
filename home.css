@@ -1,0 +1,26 @@
+body{
+    text-align: center;
+    background-color: rgb(141, 233, 138);
+    color: rgb(27, 66, 12);
+}
+
+img{
+    max-width: 30%;
+    max-height: auto;
+    border-radius: 10%;
+    
+}
+
+button{
+    background-color: azure;
+    color: rgb(8, 71, 73);
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px 0 10px 0;
+}
+
+button:hover{
+    background-color: rgb(27, 66, 12);
+    color: rgb(141, 233, 138);
+}

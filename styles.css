@@ -16,30 +16,28 @@ p{
     font-size: larger;
 }
 button{
-   
-    background-color: rgb(24, 39, 255);
     
-    font-weight: bolder;
-    
-    
-}
-.second{
+    background-color: azure;
+    color: rgb(8, 71, 73);
     padding: 10px;
     border-radius: 10px;
-    background-color: rgb(255, 255, 255);
-    margin-top: 10px;
+    cursor: pointer;
+    margin: 10px 30% 10px 1%;
 }
-.first{
-    padding: 10px;
-    border-radius: 10px;
-    background-color: rgb(255, 255, 255);
-   
+
+button:hover{
+    background-color: rgb(27, 66, 12);
+    color: rgb(141, 233, 138);
 }
+
+
 ul{
     margin-top: -20px;
 }
 img{
-    width: 60%;
-    margin-left: 20%;
+    max-width: 30%;
+    max-height: auto;
+    border-radius: 10%;
+    margin-left: 35%;
     
 }

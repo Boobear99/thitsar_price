@@ -1,0 +1,13 @@
+img{
+    width: 10%;
+    height: 10%;
+    border: solid 1px black;
+    margin: 10px;
+    padding: 3px;
+    shape-margin: 2px;
+}
+
+button{
+    margin: 2px;
+    
+}
