@@ -7,8 +7,11 @@ body{
 img{
     max-width: 90%;
     max-height: auto;
-    border-radius: 10%;
-    
+    border-radius: 10%;   
+}
+
+.producPhoto{
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
 }
 
 .menu{
