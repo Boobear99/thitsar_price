@@ -1,14 +1,28 @@
 body{
     text-align: center;
-    background-color: rgb(141, 233, 138);
+    background-color: rgba(244,234,3,255);
     color: rgb(27, 66, 12);
 }
 
 img{
-    max-width: 30%;
+    max-width: 90%;
     max-height: auto;
     border-radius: 10%;
     
+}
+
+.menu{
+    cursor: pointer;
+    
+}
+.menu:hover{
+    color:rgb(255, 255, 255) ;
+}
+.productDetailsBar{
+    display: none;
+}
+.productDetailsBar:hover{
+    display: inline-block;
 }
 
 button{
@@ -24,3 +38,23 @@ button:hover{
     background-color: rgb(27, 66, 12);
     color: rgb(141, 233, 138);
 }
+
+.menuBar{
+    display: block;
+    background-color:rgba(236,34,38,255);
+    width: 100%;
+    text-align: left;
+    margin-bottom: 3%;
+}
+
+.mainProduct{
+    display: block;
+    margin-left: 40%;
+}
+
+div{
+    display: inline-block;
+    max-width: 20%;
+    margin: 1%;
+}
+
