@@ -38,7 +38,7 @@ function cal() {
             lid=li*0.37;
             document.getElementById('dprice').innerHTML="Discount Amount :  " + lid.toLocaleString() + "  Kyat" ;
             document.getElementById('pprice').innerHTML= "Promotion Amount :  " + (li - lid).toLocaleString() + "  Kyat" ;
-        }else if (qt<=200) {
+        }else if (qt<200) {
             lid=li*0.39;
             document.getElementById('dprice').innerHTML="Discount Amount :  " + lid.toLocaleString() + "  Kyat" ;
             document.getElementById('pprice').innerHTML= "Promotion Amount :  " + (li - lid).toLocaleString() + "  Kyat" ;
@@ -84,7 +84,7 @@ function cal() {
             lid=li*0.37;
             document.getElementById('dprice').innerHTML="Discount Amount :  " + lid.toLocaleString() + "  Kyat" ;
             document.getElementById('pprice').innerHTML= "Promotion Amount :  " + (li - lid).toLocaleString() + "  Kyat" ;
-        }else if (qt<=200) {
+        }else if (qt<200) {
             lid=li*0.39;
             document.getElementById('dprice').innerHTML="Discount Amount :  " + lid.toLocaleString() + "  Kyat" ;
             document.getElementById('pprice').innerHTML= "Promotion Amount :  " + (li - lid).toLocaleString() + "  Kyat" ;
@@ -131,7 +131,7 @@ function cal() {
             lid=li*0.37;
             document.getElementById('dprice').innerHTML="Discount Amount :  " + lid.toLocaleString() + "  Kyat" ;
             document.getElementById('pprice').innerHTML= "Promotion Amount :  " + (li - lid).toLocaleString() + "  Kyat" ;
-        }else if (qt<=200) {
+        }else if (qt<200) {
             lid=li*0.39;
             document.getElementById('dprice').innerHTML="Discount Amount :  " + lid.toLocaleString() + "  Kyat" ;
             document.getElementById('pprice').innerHTML= "Promotion Amount :  " + (li - lid).toLocaleString() + "  Kyat" ;
