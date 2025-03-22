@@ -1,16 +1,16 @@
 body{
     text-align: center;
     background-color: azure;
-    background-color:#171312;
+    background-color:rgba(191,44,28,255);
     color: #fefcfd;
     font-family: Arial, Helvetica, sans-serif;
 
 }
 
 h2{
-    color: #ec2126;
+    color: #ffffff;
     font-size: xx-large;
-    text-shadow: 2px 2px 4px#998c8b;
+    text-shadow: 2px 2px 4px#000000;
     font-family: Arial, Helvetica, sans-serif;
 }
 p{
@@ -25,7 +25,7 @@ img{
     max-width: 90%;
     max-height: auto;
     border-radius: 10%;
-    box-shadow: 3px 3px 5px #6e2e27;
+    box-shadow: 3px 3px 5px #000000;
     
 }
 

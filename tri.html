@@ -26,6 +26,28 @@
     <img src="tri2000.jpg" alt title="TRI Water tank 2000 liter">
     <Nav><strong>Price - 1,165,000/- kyat</strong></Nav>
     </div><br>
-    <a href="index.html"><button>Main Menu</button></a>
+
+   <label for="tank-liter">Tank Liter:</label>
+    <input id="li" list="liter" name="tank-liter" >
+    <datalist id="liter">
+        <option value=550></option>
+        <option value=1000></option>
+        <option value=1500></option>
+        <option value=2000></option>
+    </datalist>
+
+
+    Quantity: <input type="number" id="qty">
+    <p id="error"></p>
+    <p id="nprice"></p>
+    <p id="dprice"></p>
+    <p id="pprice"></p>
+    <button onclick="cal()">calculate</button>
+
+
+    <br><a href="index.html"><button>Main Menu</button></a>
+
+    <script src="tri.js"></script>
+
 </body>
 </html>
