@@ -1,6 +1,6 @@
 body{
     text-align: center;
-    background-color: rgba(244,234,3,255);
+    background-color: lightblue;
     color: rgb(27, 66, 12);
 }
 
@@ -10,8 +10,10 @@ img{
 }
 
 .logo{
-	asspect-ratio:2/1;
+	asspect-ratio:3/4;
 	width:10%;
+	display:inline-block;
+}
 
 .menu{
     cursor: pointer;
@@ -54,20 +56,23 @@ button:hover{
     margin-left: 40%;
 }
 
-.hCard{
-    display: inline-block;
-    width: 33%;
-    text-align:center;
-	box-shadow: 0px 5px 5px black;
-    margin:8%;
+div.hCard{
+	display:inlne-block;
+	max-width:33%;
+	text-align:center;
 	background-color:white;
-        
+	margin:8px;
+	box-shadow:0 5px 3px black;
 }
 
 .txtCard{
     padding:8%;
     font-family:arial;
     font-size:normal;
+}
+
+div.txtCard{
+	padding:8px;
 }
     
 footer{
