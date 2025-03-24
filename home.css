@@ -9,9 +9,9 @@ img{
     aspect-ratio: 20/23.5;
 }
 
-.producPhoto{
-    box-shadow: 5px 5px 10px rgb(0, 0, 0);
-}
+.logo{
+	asspect-ratio:1/1;
+	width:10%;
 
 .menu{
     cursor: pointer;
@@ -58,13 +58,14 @@ button:hover{
     display: inline-block;
     width: 33%;
     text-align:center;
-	box-shadow: 0px 5px 5px darkgray;
+	box-shadow: 0px 5px 5px black;
     margin:8%;
+	background-color:white;
         
 }
 
 .txtCard{
-    padding:3%;
+    padding:8%;
     font-family:arial;
     font-size:normal;
 }
