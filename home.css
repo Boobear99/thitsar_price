@@ -58,14 +58,15 @@ button:hover{
 
 div.hCard{
 	display:inlne-block;
-	max-width:33%;
+	max-width:38%;
 	text-align:center;
 	background-color:white;
-	margin:8px;
-	box-shadow:0 5px 3px black;
+	margin:10px;
+	box-shadow:8px 10px 13px black;
 }
 
 .txtCard{
+    dispkay:inline-block;
     padding:8%;
     font-family:arial;
     font-size:normal;
