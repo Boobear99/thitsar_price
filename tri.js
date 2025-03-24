@@ -77,14 +77,13 @@ function cal() {
             document.getElementById('tdprice').innerHTML="Total discount price (39%) = " + td.toLocaleString() + " Kyat";
             document.getElementById('tpprice').innerHTML="Total promotion price = " + (tli-td).toLocaleString() + " Kyat";
         }else if (qt>=200) {
-            lid=li*0.39;
+            lid=li*0.40;
             td = lid*qt ;
-            document.getElementById('dprice').innerHTML="Discount price (39%) = " + lid.toLocaleString()  + "  Kyat" ;
+            document.getElementById('dprice').innerHTML="Discount price (40%) = " + lid.toLocaleString()  + "  Kyat" ;
             document.getElementById('pprice').innerHTML= "Promotion price = " + (li - lid).toLocaleString() + "  Kyat" ;           
-            document.getElementById('tdprice').innerHTML="Total discount price (39%) = " + td.toLocaleString() + " Kyat";
+            document.getElementById('tdprice').innerHTML="Total discount price (40%) = " + td.toLocaleString() + " Kyat";
             document.getElementById('tpprice').innerHTML="Total promotion price = " + (tli-td).toLocaleString() + " Kyat";
         }
-        
         else{
             document.getElementById('dprice').innerHTML="" ;
             document.getElementById('pprice').innerHTML= "" ;           
@@ -168,11 +167,11 @@ function cal() {
             document.getElementById('tdprice').innerHTML="Total discount price (39%) = " + td.toLocaleString() + " Kyat";
             document.getElementById('tpprice').innerHTML="Total promotion price = " + (tli-td).toLocaleString() + " Kyat";
         }else if (qt>=200) {
-            lid=li*0.39;
+            lid=li*0.40;
             td = lid*qt ;
-            document.getElementById('dprice').innerHTML="Discount price (39%) = " + lid.toLocaleString()  + "  Kyat" ;
+            document.getElementById('dprice').innerHTML="Discount price (40%) = " + lid.toLocaleString()  + "  Kyat" ;
             document.getElementById('pprice').innerHTML= "Promotion price = " + (li - lid).toLocaleString() + "  Kyat" ;           
-            document.getElementById('tdprice').innerHTML="Total discount price (39%) = " + td.toLocaleString() + " Kyat";
+            document.getElementById('tdprice').innerHTML="Total discount price (40%) = " + td.toLocaleString() + " Kyat";
             document.getElementById('tpprice').innerHTML="Total promotion price = " + (tli-td).toLocaleString() + " Kyat";
         }
         
@@ -259,11 +258,11 @@ function cal() {
             document.getElementById('tdprice').innerHTML="Total discount price (39%) = " + td.toLocaleString() + " Kyat";
             document.getElementById('tpprice').innerHTML="Total promotion price = " + (tli-td).toLocaleString() + " Kyat";
         }else if (qt>=200) {
-            lid=li*0.39;
+            lid=li*0.40;
             td = lid*qt ;
-            document.getElementById('dprice').innerHTML="Discount price (39%) = " + lid.toLocaleString()  + "  Kyat" ;
+            document.getElementById('dprice').innerHTML="Discount price (40%) = " + lid.toLocaleString()  + "  Kyat" ;
             document.getElementById('pprice').innerHTML= "Promotion price = " + (li - lid).toLocaleString() + "  Kyat" ;           
-            document.getElementById('tdprice').innerHTML="Total discount price (39%) = " + td.toLocaleString() + " Kyat";
+            document.getElementById('tdprice').innerHTML="Total discount price (40%) = " + td.toLocaleString() + " Kyat";
             document.getElementById('tpprice').innerHTML="Total promotion price = " + (tli-td).toLocaleString() + " Kyat";
         }
         
@@ -350,11 +349,11 @@ function cal() {
             document.getElementById('tdprice').innerHTML="Total discount price (39%) = " + td.toLocaleString() + " Kyat";
             document.getElementById('tpprice').innerHTML="Total promotion price = " + (tli-td).toLocaleString() + " Kyat";
         }else if (qt>=200) {
-            lid=li*0.39;
+            lid=li*0.40;
             td = lid*qt ;
-            document.getElementById('dprice').innerHTML="Discount price (39%) = " + lid.toLocaleString()  + "  Kyat" ;
+            document.getElementById('dprice').innerHTML="Discount price (40%) = " + lid.toLocaleString()  + "  Kyat" ;
             document.getElementById('pprice').innerHTML= "Promotion price = " + (li - lid).toLocaleString() + "  Kyat" ;           
-            document.getElementById('tdprice').innerHTML="Total discount price (39%) = " + td.toLocaleString() + " Kyat";
+            document.getElementById('tdprice').innerHTML="Total discount price (40%) = " + td.toLocaleString() + " Kyat";
             document.getElementById('tpprice').innerHTML="Total promotion price = " + (tli-td).toLocaleString() + " Kyat";
         }
         
