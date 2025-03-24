@@ -8,33 +8,38 @@ h2{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgba(236,34,38,255);
     font-size: 250%;
-    text-shadow: 2px 2px 4px #000000;
+    text-shadow: 2px 5px 4px #303030;
     
 }
 
-nav{
-    margin-top: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-    font-size: larger;
-}
+
 
 img{
-    max-width: 90%;
-    max-height: auto;
-    border-radius: 10%;
-    box-shadow: 10px 10px 10px rgb(40, 46, 48);
+    max-width: 100%;
+    max-height: auto;  
     
 }
 
-div{
+.triCard{
     display: inline-block;
-    max-width: 40%;
-    margin: 1%;
-    height: auto;
+    background-color: white;
     text-align: center;
-    margin-top: 5%;
+    max-width: 40%;
+    margin: 3%;
+    height: auto;
+    box-shadow: 0 15px 10px rgb(73, 73, 73);
+
 }
+
+.txtCard{
+    width: 100%;
+    padding: 5%;
+    text-wrap: pretty;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: normal;
+}
+
+
 
 button{
     background-color: azure;
@@ -46,35 +51,45 @@ button{
 }
 
 button:hover{
-    background-color:rgb(0, 255, 115);
-    color: rgb(0, 38, 255);
+    background-color:rgb(0, 39, 18);
+    color: rgb(159, 252, 255);
 }
 
 #error{
     margin: 10px;
     text-wrap: pretty;
     color: red;
-    font-weight: bolder;
+    font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: medium;
 }
 
 #pprice{
-    color:rgb(0, 64, 138);
-    font-weight: bold;
+    color:rgb(255, 221, 30);
+    font-weight: normal;
     font-family: Arial, Helvetica, sans-serif;
     font-size:medium;
-    text-align: center;
+    
+}
+
+#tpprice{
+    color:rgb(255, 221, 30);
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:medium;
 }
 
 input{
-    width: 50%;
+    width: 30%;
+    height: 15px;
     border: solid 1px black;
-    border-radius: 30px;
+    border-radius: 5px;
     text-align: center;
-    
-
-    
+    padding: 5px;   
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(24, 20, 255);
+    background-color: rgb(219, 219, 219);
 }
 
 label{
@@ -83,22 +98,28 @@ label{
 }
 
 .btnCalculate{
-    background-color: #d88b53;
+    background-color: #1d0705;
     padding: 5px;
-    border: solid 2px rgb(255, 255, 255);
-    color: rgb(68, 22, 0);
+    border: solid 2px rgb(255, 0, 0);
+    color: rgb(251, 255, 42);
     font-family: Arial, Helvetica, sans-serif;
-    box-shadow: 5px 5px 5px rgb(63, 63, 63);
+    box-shadow: 1px 3px 3px rgb(165, 165, 165);
     margin-left: 35%;
     
 }
 
 .disBox{
-    border: solid 2px rgb(72, 255, 0);
+    border: groove 5px rgb(255, 32, 16);
     border-radius: 10px;
-    box-shadow: 10px 10px 10px rgb(100, 97, 97);
+    box-shadow: 5px 10px 10px rgb(100, 97, 97);
     text-align: left;
-    max-width: 100%;
+    max-width: 75%;
+    height: auto;
+    padding: 3%;
+    background-color: rgb(28, 41, 41);
+    color: white;
+    text-wrap: pretty ;
+    margin: 10%;
 
 }
 
@@ -108,4 +129,22 @@ p{
     margin: 10px;
 
     
+}
+
+.t1pcs{
+    margin: 5px;
+    color: red;
+}
+
+#t2pcs{
+    margin: 5px;
+    color: red;
+    margin-top: 8%;
+
+}
+
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: x-large;
 }
