@@ -25,25 +25,29 @@
     <div>
     <img src="tri2000.jpg" alt title="TRI Water tank 2000 liter">
     <Nav><strong>Price - 1,165,000/- kyat</strong></Nav>
-    </div><br><br>
-
-   <label for="tank-liter">Tank Liter:</label>
-    <input id="li" list="liter" name="tank-liter" type="number" >
+    </div><br>
+    <div class="disBox">
+        <h3>Discount calculator</h3>
+    
+   <label for="tank-liter"> Tank Liter <b>:</b> </label>
+    <input id="li" list="liter" name="tank-liter" >
     <datalist id="liter">
         <option value=550></option>
         <option value=1000></option>
         <option value=1500></option>
         <option value=2000></option>
-    </datalist> <br><br>
+    </datalist>
 
-
-    Quantity: <input type="number" id="qty">
+    <br><br>
+    <label for=""> Quantity <b>:</b>    </label>
+    <input type="number" id="qty">
+    <p><u> Price for 1 Pcs </u></p>
     <p id="error"></p>
     <p id="nprice"></p>
-    <p id="dprice"></p>
+    <p id="dprice"></p><br>
     <p id="pprice"></p>
-    <button onclick="cal()">calculate</button>
-
+    <button class="btnCalculate" onclick="cal()">Calculate</button>
+    </div><br>
 
     <br><a href="index.html"><button>Main Menu</button></a>
 
