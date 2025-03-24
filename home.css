@@ -10,9 +10,9 @@ img{
 }
 
 .logo{
-	asspect-ratio:3/4;
-	width:10%;
-	display:inline-block;
+	display: inline-block;
+	max-width:10%;
+	height:auto;
 }
 
 .menu{
@@ -64,7 +64,7 @@ button:hover{
     max-width: 40%;
     margin: 3%;
     height: auto;
-    box-shadow: 0 15px 10px rgb(73, 73, 73);
+    box-shadow: 5px 10px 13px rgb(73, 73, 73);
 
 }
 
