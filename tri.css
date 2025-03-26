@@ -133,7 +133,7 @@ label{
 
 
 
-.disbox::after, .disbox::before{
+.disBox::after, .disBox::before{
 
     content: '';
 
@@ -163,7 +163,7 @@ label{
 
 
 
-.disbox::before{
+.disBox::before{
 
     filter: blur(0.8rem);
 
