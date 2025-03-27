@@ -65,57 +65,99 @@ button:hover{
 }
 
 #pprice{
-    color:rgb(255, 221, 30);
-    font-weight: normal;
+    color:rgb(29, 10, 97);
+    font-weight: 600;
     font-family: Arial, Helvetica, sans-serif;
     font-size:medium;
     
 }
 
 #tpprice{
-    color:rgb(255, 221, 30);
-    font-weight: normal;
+    color:rgb(29, 10, 97);
+    font-weight: 600;
     font-family: Arial, Helvetica, sans-serif;
     font-size:medium;
 }
 
 input{
-    width: 30%;
-    height: 15px;
+    
+    display:inline-block;
+    width: 100px;
+    height: 25px;
     border: solid 1px black;
     border-radius: 5px;
     text-align: center;
+    justify-content: center;
+    align-items: center;
     padding: 5px;   
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
+    font-size: medium;
+    font-weight: 600;
     color: rgb(24, 20, 255);
     background-color: rgb(219, 219, 219);
+    position: relative;
+    box-shadow: inset 10px 5px rgb(168, 162, 162);
 }
 
+
+
 label{
+    display: block;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: medium;
+    font-size: 1.8cap;
+    font-weight: 700;
+    position: relative;
+    bottom: 5px;
+}
+
+h3{
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 2.5cap;
+    position: relative;
 }
 
 .btnCalculate{
+    display: inline-block;
     background-color: #1d0705;
     padding: 5px;
+    width: 90px;
+    height: 40px;
     border: solid 2px rgb(255, 0, 0);
     color: rgb(251, 255, 42);
     font-family: Arial, Helvetica, sans-serif;
-    box-shadow: 1px 3px 3px rgb(165, 165, 165);
-    margin-left: 35%;
+    box-shadow: 0px 10px 15px rgb(43, 43, 43);
+    position: relative;
+
     
 }
 
+.btnCalculate:hover{
+    
+    display: inline-block;
+    background-color: #1d0705;
+    padding: 5px;
+    width: 90px;
+    height: 40px;
+    border: solid 2px rgb(255, 0, 0);
+    color: rgb(251, 255, 42);
+    font-family: Arial, Helvetica, sans-serif;
+    scale: 1.1;
+    position: relative;
+}
+
 .disBox{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     border-radius: 10px;
-    text-align: left;
-    max-width: 75%;
-    height: auto;
+    width: 300px;
+    max-width: 85%;
+    max-height: auto;
     padding: 3%;
-    background-color: rgb(28, 41, 41);
-    color: white;
+    background-color: #A2B5C2;
+    color: #DDFFF9;
     text-wrap: pretty ;
     margin: 10%;
     position:relative;
@@ -154,11 +196,11 @@ label{
 
     z-index: -1;
 
-    padding: 3.5px;
+    padding: 3px;
 
     border-radius: 10px;
 
-    animation: 1s spin linear infinite;
+    animation: 2.5s spin linear infinite;
 
 }
 
@@ -168,7 +210,7 @@ label{
 
     filter: blur(0.8rem);
 
-    opacity: 0.8;
+    opacity: 0.5;
 
 }
 
@@ -200,6 +242,9 @@ p{
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
     margin: 10px;
+    text-align: left;
+    text-wrap: no warp;
+    font-weight: 500;
 
     
 }
@@ -207,17 +252,17 @@ p{
 .t1pcs{
     margin: 5px;
     color: red;
+    text-align: center;
 }
 
 #t2pcs{
     margin: 5px;
     color: red;
     margin-top: 8%;
-
+    text-align-last: center;
+    
 }
 
-h3{
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    font-size: x-large;
+.disBox{
+	text-shadow: 0 10px 10px #464646;
 }
