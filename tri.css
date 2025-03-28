@@ -41,19 +41,28 @@ img{
 
 
 
-button{
-    background-color: azure;
-    color: rgb(0, 82, 102);
-    padding: 10px;
-    border-radius: 10px;
+.btnmain{
+    width: 100px;
+    max-width: auto;    
+    border: solid 0.15rem rgb(10, 243, 193);
+    border-radius: 0.4rem;
+    padding: 0.5rem;
+    color: rgb(255, 255, 255);
+    background-color: rgb(42, 139, 139);
+    box-shadow: 0px 10px 10px rgb(59, 59, 59);
     cursor: pointer;
-    margin: 10px 0 10px 0;
+    margin-bottom: 50px;
+
 }
 
-button:hover{
-    background-color:rgb(0, 39, 18);
-    color: rgb(159, 252, 255);
+.btnmain:hover{
+    box-shadow: 0px 8px 8px rgb(46, 46, 46);
+    scale: 0.95;
+    color: rgb(255, 251, 18);
+    background-color: rgb(32, 172, 172);
+
 }
+
 
 #error{
     margin: 10px;
@@ -129,7 +138,9 @@ h3{
     font-family: Arial, Helvetica, sans-serif;
     box-shadow: 0px 10px 15px rgb(43, 43, 43);
     position: relative;
-
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px 0 10px 0;
     
 }
 
